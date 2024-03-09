@@ -1,0 +1,213 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #DEC2EF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #4A2B46;
+    position: fixed;
+    z-index: 999;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  #sairLi {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #DEC2EF;
+  }
+
+.inicio{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.fotoHome{
+  width: 700px;
+  height: 680px;
+  object-fit: cover;
+  display: flex;
+  justify-content: right;
+}
+
+.tituloPrincipal{
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 90px;
+    line-height: 68px;
+    margin-top: 10%;
+}
+
+.subTitulo{
+    text-indent: 15px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 2%;
+}
+
+.paragrafoIncentivo{
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.vejaMais{
+    text-indent: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 18%;
+}
+
+h1,h2,h3,p,small{
+    color: #4A2B46;
+}
+
+.acompanharSubtema{
+    text-indent: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.temaSub{
+    text-indent: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.limitarCards {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.cards{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.fotosProdutos{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sobreTexto{
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 3%;
+}
+
+.sobreMim{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.acompanharSubtema2{
+    text-indent: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.temaSub2{
+    text-indent: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.fotoSobre{
+    width: 700px;
+    height: 683px;
+    object-fit: cover;
+    display: flex;
+    justify-content: right;
+    margin-top: 11%;
+}
+
+.tituloFinal{
+    text-indent: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 90px;
+    line-height: 68px;
+    margin-top: 10%;
+}
+
+.temaSub3{
+    text-indent: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.linksInsta, .linksWhats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatosLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redeInsta{
+    width: 100px;
+    height: 100px;
+}
+
+.redeWhats{
+    width: 60px;
+    height: 60px;
+}
